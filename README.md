@@ -8,7 +8,10 @@ The .apk is also compiled and can be downloaded, along with screenshots of the a
 
 ### Screenshots
 
-![Home Page](/screenshots/Home_Page.png?raw=true "Home Page for the App")
+<figure>
+  <img src="screenshots/Main_Page.png?raw=true" alt="Test" width="304" height="228">
+  <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+</figure>
 
 Clicing on the "FOCO" button takes you to the "Foco Main Page".
 
