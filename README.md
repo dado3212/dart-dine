@@ -9,20 +9,19 @@ The .apk is also compiled and can be downloaded, along with screenshots of the a
 ### Screenshots
 
 <img src="/screenshots/Home_Page.png?raw=true" width="200" alt="Home Page"/>
-![Home Page](/screenshots/Home_Page.png?raw=true "Home Page for the App" | )
 
 Clicing on the "FOCO" button takes you to the "Foco Main Page".
 
-![Foco Main Page](/screenshots/Foco_Main_Page.png?raw=true "Foco Home Page")
+<img src="/screenshots/Foco_Main_Page.png?raw=true" width="200" alt="Foco Main Page"/>
 
 Clicking "Search Menu" will show all of the menu items in a searchable, scrollable list, and displays nutritional information by tapping on any of the food items.
 
-![Menu Item Nutrition](/screenshots/Menu_Item_Nutrition.png?raw=true "Nutritional Information for Green Peas")
+<img src="/screenshots/Menu_Item_Nutrition.png?raw=true" width="200" alt="Nutritional Information for Green Peas"/>
 
 Going back to the "Foco Main Page", and clicking on "Make a New Meal" will take you to this page, where you can choose items to add to a meal, and it will keep track of all the health statistics of your constructed meal, including calories, total fat, and protein.  You can also save it for later use.
 
-![Building a Meal Page](/screenshots/Make_Meal.png?raw=true "Constructing a meal")
+<img src="/screenshots/Make_Meal.png?raw=true" width="200" alt="Meal Construction Page"/>
 
 The "Load a Meal" button will allow you to load a meal from previously saved options.
 
-![Foco Main Page](/screenshots/Load_Meal.png?raw=true "FoCo Home Page")
+<img src="/screenshots/Load_Meal.png?raw=true" width="200" alt="Loading a Meal"/>
