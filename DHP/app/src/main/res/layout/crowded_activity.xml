@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foco Times"
+        android:id="@+id/textView8"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_font"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/foco_details"
+        android:textSize="@dimen/secondary_font"
+        android:layout_marginLeft="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collis Times"
+        android:id="@+id/textView9"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_font"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/collis_details"
+        android:textSize="@dimen/secondary_font"
+        android:layout_marginLeft="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hop Times"
+        android:id="@+id/textView10"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_font"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/hop_details"
+        android:textSize="@dimen/secondary_font"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Foco Crowds"
+                android:id="@+id/textView12"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/header_font"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_1"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_2"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_3"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_4"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_5"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_6"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_7"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_8"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_9"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/foco_crowd_10"
+                    android:background="@color/focoCrowd"
+                    android:layout_marginBottom="2dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Collis Crowds"
+                android:id="@+id/textView16"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/header_font"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_1"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_2"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_3"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_4"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_5"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_6"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_7"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_8"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_9"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/collis_crowd_10"
+                    android:background="@color/collisCrowd"
+                    android:layout_marginBottom="2dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hop Crowds"
+                android:id="@+id/textView23"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/header_font"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_1"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_2"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_3"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_4"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_5"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_6"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_7"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_8"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_9"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/hop_crowd_10"
+                    android:background="@color/hopCrowd"
+                    android:layout_marginBottom="2dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

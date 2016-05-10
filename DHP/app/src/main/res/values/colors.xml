@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B9927</color>
+    <color name="colorPrimaryDark">#227A1F</color>
+    <color name="colorAccent">#5AC52B</color>
+
+    <color name="focoCrowd">#5AC52B</color>
+    <color name="focoCrowdEmpty">#AEAEAE</color>
+
+    <color name="collisCrowd">#962BC5</color>
+    <color name="collisCrowdEmpty">#AEAEAE</color>
+
+    <color name="hopCrowd">#2B5AC5</color>
+    <color name="hopCrowdEmpty">#AEAEAE</color>
+</resources>
