@@ -2,7 +2,7 @@
 
 For our final project for CS89, Human Computer Interaction, we tried to revamp the Dartmouth meal site, which is located at http://nutrition.dartmouth.edu:8088.  Our goal was to make a mobile app that would solve all of the UX/UI problems that the current site had, especially when accessing it on mobile, and also combine all dining information into a useful format.  
 
-Note that this app was constructed as a proof of concept, and is not fully functional.  For example, it currently doesn't pull the food data from the working site, despite having a secret API that we could have leveraged.  Additionally, we would create a function that would guess at how full the different dining locations were based on measured data for a few weeks.  However, in the PoC, that data is randomly generated on application open.
+One of the major contributions I made to the project was fully building out this app.  Note that this app was constructed as a proof of concept, and is not fully functional.  For example, it currently doesn't pull the food data from the working site, despite having a secret API that I could have leveraged.  Additionally, ideally I would've created a function that would guess at how full the different dining locations were based on measured data for a few weeks.  However, in the PoC, that data is randomly generated on application open.
 
 The .apk is also compiled and can be downloaded, along with screenshots of the app.
 
