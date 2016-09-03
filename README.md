@@ -10,7 +10,7 @@ The .apk is also compiled and can be downloaded, along with screenshots of the a
 
 <img src="/screenshots/Home_Page.png?raw=true" width="200" alt="Home Page"/>
 
-Clicing on the "FOCO" button takes you to the "Foco Main Page".
+Clicking on the "FOCO" button takes you to the "Foco Main Page".
 
 <img src="/screenshots/Foco_Main_Page.png?raw=true" width="200" alt="Foco Main Page"/>
 
